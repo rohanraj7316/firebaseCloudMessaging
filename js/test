@@ -1,0 +1,10 @@
+curl -X POST -H "Authorization: key=AAAA1PZ0BP8:APA91bF4sgMPtP66IfH4_HJQY9I14ShiwtQ2OqhDU9KWllPn9wqA_hB24ekxf9HmIiT6u2Lhog2E9cXM_zQ07ZttqtU61-ONTxbr9R0WvlT7Bbuc-00t2-Nmdq1fgEA0mhB2rrcc--wL" -H "Content-Type: application/json" -d '{
+  "notification": {
+    "title": "Main A Gya",
+    "body": "Do You Want To Smile Click Below",
+
+    "icon": "Happy_smiley_face.png",
+    "click_action": "https://www.google.com"
+  },
+  "to": "fgnabwETHC8:APA91bEWzzfH9aZEC8i7V_18UQhbGr-ZlkGJTxkwlSqVajc_7hnrDNrUNE2GCy-vmLfwGVwnv5vqV1QXZBabhbupyFiOcTh2E4DxqNPMhMtgMW__TMtew_z6k8nx_KCivqZ41LasJeBj"
+}' "https://fcm.googleapis.com/fcm/send"
