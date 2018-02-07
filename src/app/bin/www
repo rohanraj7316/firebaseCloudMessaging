@@ -1,0 +1,25 @@
+
+import { app } from './../../app';
+import http from 'http';
+
+/**
+ * Get port from environment and store in Express.
+ */
+
+let port = new normalizePort(process.env.PORT || '8080');
+app.set('port', port);
+
+
+/**
+ * Listen on provided port, on all network interfaces.
+ */
+
+let server = http.createServer(app);
+server.listen(port);
+
+/**
+ * Listen on provided port, on all network interfaces.
+ */
+
+server.on();
+server.on();
