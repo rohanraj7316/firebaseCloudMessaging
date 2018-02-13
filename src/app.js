@@ -3,6 +3,6 @@ import routes from './app/routes/index';
 
 const app = express();
 
-app.use('/api', routes);
+app.use('/', routes);
 
 export default app;
